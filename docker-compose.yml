@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  validation:
+    container_name: validation-container-local
+    build: .
+    volumes:
+      - .:/usr/src/app

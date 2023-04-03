@@ -1,0 +1,19 @@
+{
+    "name": "code-challenge-unit-tests",
+    "version": "1.0.0",
+    "description": "Code Challenge for unit test skills",
+    "main": "src/validator.js",
+    "scripts": {
+        "test": "npx jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^4.3.7",
+        "jest": "^29.3.1",
+        "mocha": "^8.4.0",
+        "nyc": "^15.1.0",
+        "sinon": "^9.2.4"
+    }
+}
